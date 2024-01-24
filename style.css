@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+body{
+    font-family: "Salsa", cursive;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 800px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    background-image: url('./Images/India.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Adjust as needed */
+}
+
+.image-container {
+    flex: 5;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    flex: 10;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 4px;
+}
+.header{
+    align-content: center;
+}
+.c1{
+    border-radius:10px ;
+}
+.c2{
+    margin-top: 6px;
+    border-radius:10px ;
+}
+.c3{
+    margin-top: 6px;
+    border-radius: 10px;
+}
+.c4{
+    border-radius: 10px;
+}
+.c5{
+    margin-top: 6px;
+    border-radius: 10px;
+}
+.c6{
+    margin-top: 6px;
+    border-radius: 10px;
+}
